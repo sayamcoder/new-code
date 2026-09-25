@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "code.versee.nexoclient.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [],
+  "client": [
+    "MinecraftMixin",
+    "TitleScreenMixin",
+    "GuiMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

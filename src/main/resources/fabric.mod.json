@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "nexoclient",
+  "version": "${version}",
+  "name": "NexoClient",
+  "description": "Next-Gen Lightweight Minecraft PvP Client",
+  "authors": ["Sayam"],
+  "license": "All Rights Reserved",
+  "icon": "assets/nexoclient/textures/gui/logo.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "code.versee.nexoclient.Nexoclient"
+    ]
+  },
+  "mixins": [
+    "nexoclient.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "*",
+    "java": ">=25"
+  }
+}
